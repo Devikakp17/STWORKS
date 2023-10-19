@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ebay.Ebay">
+      <class name="myworks.SearchflightTest">
         <methods>
-          <include name="Open"/>
-          <include name="test"/>
+          <include name="searchflight"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- ebay.Ebay -->
+      </class> <!-- myworks.SearchflightTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
